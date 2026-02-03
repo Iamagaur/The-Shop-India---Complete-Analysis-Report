@@ -79,21 +79,6 @@ This project provides comprehensive data analytics for The Shop India's e-commer
 **Critical Finding:** 15-20% of bestsellers face stock issues, representing immediate revenue loss.
 
 ---
-
-### 5. Customer Ratings by Category
-![Customer Ratings](chart5_customer_ratings.png)
-
-**Key Insight:** All categories maintain >4.0 rating, indicating strong product quality across the board.
-
----
-
-### 6. Performance Matrix
-![Performance Matrix](chart6_performance_matrix.png)
-
-**Strategic Insight:** Women's category leads in volume, while Bedroom leads in revenue – opportunity for cross-category bundles.
-
----
-
 ## 💼 BUSINESS RECOMMENDATIONS
 
 ### 1. Immediate Actions (0-30 days)
@@ -162,8 +147,6 @@ the_shop_india_analysis/
 ├── chart2_price_analysis.png       # Pricing analysis
 ├── chart3_bestsellers.png          # Best sellers comparison
 ├── chart4_stock_analysis.png       # Inventory insights
-├── chart5_customer_ratings.png     # Customer satisfaction
-├── chart6_performance_matrix.png   # Performance overview
 └── README.md                       # This file
 ```
 
