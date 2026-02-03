@@ -1,0 +1,434 @@
+================================================================================
+THE SHOP INDIA - E-COMMERCE PRODUCT ANALYTICS
+================================================================================
+Analysis Date: February 03, 2026
+Analyst: Utkarsh Gaur
+================================================================================
+
+📊 Generating Product Dataset from The Shop India Catalog...
+✓ Loaded 1520 products across 8 categories
+
+
+================================================================================
+SECTION 1: DATASET OVERVIEW
+================================================================================
+
+Dataset Shape: (1520, 14)
+Total Products: 1520
+Categories: 8
+Date Range: 2024-02-05 to 2026-02-02
+
+Price Statistics (INR):
+count     1520.000000
+mean      3115.844355
+std       1975.971294
+min        503.710000
+25%       1744.675000
+50%       2642.160000
+75%       3966.565000
+max      16804.060000
+Name: Price_INR, dtype: float64
+
+Sales Performance (Last 30 Days):
+count    1520.000000
+mean       39.776316
+std        45.575596
+min         1.000000
+25%        10.000000
+50%        27.000000
+75%        43.000000
+max       199.000000
+Name: Units_Sold_30_Days, dtype: float64
+
+
+================================================================================
+SECTION 2: CATEGORY PERFORMANCE ANALYSIS
+================================================================================
+
+Category Performance (Last 30 Days):
+               Product_Count  Total_Revenue  Total_Units_Sold  Avg_Price  Avg_Rating
+Main_Category                                                                       
+Bedroom                  220    40336366.61              8397    5121.22        4.21
+Living                   250    38216435.76              9705    3895.69        4.19
+Women                    280    36174279.57             11251    3148.83        4.24
+Men                      140    21591812.20              6011    3332.61        4.25
+Dining                   180    16793112.94              7368    2281.78        4.21
+Kids                     180    14490789.83              8088    1701.68        4.24
+Accessories              150    11018331.01              5140    2106.24        4.18
+Wellness                 120     8940170.57              4500    2119.14        4.18
+
+
+Key Insights:
+• Top Revenue Category: Bedroom (₹40,336,367 - 21.5% of total)
+• Highest Rated Category: Men (4.25/5.0)
+• Premium Category (Highest Avg Price): Bedroom (₹5,121)
+
+================================================================================
+SECTION 3: BEST-SELLING PRODUCTS BY CATEGORY
+================================================================================
+
+
+📈 DINING - Top 3 Best Sellers:
+--------------------------------------------------------------------------------
+
+TSI0164: Kitchen Linen Indigo
+  • Sub-Category: Kitchen Linen
+  • Price: ₹1,231
+  • Units Sold (30 days): 199
+  • Revenue (30 days): ₹244,963
+  • Rating: 4.8/5.0 (24 reviews)
+  • Stock: In Stock
+
+TSI0090: Mats & Napkins Aqua
+  • Sub-Category: Mats & Napkins
+  • Price: ₹2,708
+  • Units Sold (30 days): 196
+  • Revenue (30 days): ₹530,712
+  • Rating: 4.54/5.0 (54 reviews)
+  • Stock: In Stock
+
+TSI0033: Mats & Napkins Indigo
+  • Sub-Category: Mats & Napkins
+  • Price: ₹1,807
+  • Units Sold (30 days): 193
+  • Revenue (30 days): ₹348,755
+  • Rating: 4.3/5.0 (32 reviews)
+  • Stock: In Stock
+
+📈 BEDROOM - Top 3 Best Sellers:
+--------------------------------------------------------------------------------
+
+TSI0194: Pillows Green
+  • Sub-Category: Pillows
+  • Price: ₹6,863
+  • Units Sold (30 days): 199
+  • Revenue (30 days): ₹1,365,701
+  • Rating: 4.8/5.0 (58 reviews)
+  • Stock: In Stock
+
+TSI0227: Sheets & Bedcovers Pink
+  • Sub-Category: Sheets & Bedcovers
+  • Price: ₹3,043
+  • Units Sold (30 days): 199
+  • Revenue (30 days): ₹605,620
+  • Rating: 4.98/5.0 (30 reviews)
+  • Stock: Low Stock
+
+TSI0387: Quilts & Duvet Covers White
+  • Sub-Category: Quilts & Duvet Covers
+  • Price: ₹6,833
+  • Units Sold (30 days): 199
+  • Revenue (30 days): ₹1,359,722
+  • Rating: 4.41/5.0 (59 reviews)
+  • Stock: Low Stock
+
+📈 LIVING - Top 3 Best Sellers:
+--------------------------------------------------------------------------------
+
+TSI0647: Rugs Navy
+  • Sub-Category: Rugs
+  • Price: ₹5,698
+  • Units Sold (30 days): 199
+  • Revenue (30 days): ₹1,133,884
+  • Rating: 4.58/5.0 (21 reviews)
+  • Stock: In Stock
+
+TSI0445: Rugs White
+  • Sub-Category: Rugs
+  • Price: ₹1,707
+  • Units Sold (30 days): 195
+  • Revenue (30 days): ₹332,851
+  • Rating: 4.49/5.0 (24 reviews)
+  • Stock: Low Stock
+
+TSI0565: Floor Cushions Yellow
+  • Sub-Category: Floor Cushions
+  • Price: ₹2,032
+  • Units Sold (30 days): 195
+  • Revenue (30 days): ₹396,165
+  • Rating: 4.74/5.0 (46 reviews)
+  • Stock: In Stock
+
+📈 WOMEN - Top 3 Best Sellers:
+--------------------------------------------------------------------------------
+
+TSI0815: Sarees Red
+  • Sub-Category: Sarees
+  • Price: ₹1,414
+  • Units Sold (30 days): 198
+  • Revenue (30 days): ₹280,072
+  • Rating: 4.57/5.0 (49 reviews)
+  • Stock: Low Stock
+
+TSI0669: Sarees Blue
+  • Sub-Category: Sarees
+  • Price: ₹3,064
+  • Units Sold (30 days): 194
+  • Revenue (30 days): ₹594,411
+  • Rating: 4.85/5.0 (39 reviews)
+  • Stock: In Stock
+
+TSI0668: Sarees Aqua
+  • Sub-Category: Sarees
+  • Price: ₹1,524
+  • Units Sold (30 days): 188
+  • Revenue (30 days): ₹286,427
+  • Rating: 4.49/5.0 (38 reviews)
+  • Stock: In Stock
+
+📈 MEN - Top 3 Best Sellers:
+--------------------------------------------------------------------------------
+
+TSI1005: Kurtas Aqua
+  • Sub-Category: Kurtas
+  • Price: ₹5,918
+  • Units Sold (30 days): 198
+  • Revenue (30 days): ₹1,171,754
+  • Rating: 4.54/5.0 (36 reviews)
+  • Stock: In Stock
+
+TSI0946: Pants & Pyjamas Black
+  • Sub-Category: Pants & Pyjamas
+  • Price: ₹2,275
+  • Units Sold (30 days): 191
+  • Revenue (30 days): ₹434,493
+  • Rating: 4.64/5.0 (36 reviews)
+  • Stock: Low Stock
+
+TSI1026: Kurtas Navy
+  • Sub-Category: Kurtas
+  • Price: ₹5,411
+  • Units Sold (30 days): 185
+  • Revenue (30 days): ₹1,000,965
+  • Rating: 4.7/5.0 (30 reviews)
+  • Stock: Out of Stock
+
+📈 KIDS - Top 3 Best Sellers:
+--------------------------------------------------------------------------------
+
+TSI1167: Tops & Shirts Black
+  • Sub-Category: Tops & Shirts
+  • Price: ₹1,612
+  • Units Sold (30 days): 198
+  • Revenue (30 days): ₹319,254
+  • Rating: 4.91/5.0 (44 reviews)
+  • Stock: Low Stock
+
+TSI1153: Tunics & Kurtas Aqua
+  • Sub-Category: Tunics & Kurtas
+  • Price: ₹1,353
+  • Units Sold (30 days): 192
+  • Revenue (30 days): ₹259,731
+  • Rating: 4.32/5.0 (19 reviews)
+  • Stock: Out of Stock
+
+TSI1095: Tunics & Kurtas Emerald
+  • Sub-Category: Tunics & Kurtas
+  • Price: ₹2,218
+  • Units Sold (30 days): 185
+  • Revenue (30 days): ₹410,412
+  • Rating: 4.41/5.0 (49 reviews)
+  • Stock: In Stock
+
+📈 WELLNESS - Top 3 Best Sellers:
+--------------------------------------------------------------------------------
+
+TSI1254: Bath & Body Natural
+  • Sub-Category: Bath & Body
+  • Price: ₹862
+  • Units Sold (30 days): 198
+  • Revenue (30 days): ₹170,688
+  • Rating: 4.84/5.0 (21 reviews)
+  • Stock: In Stock
+
+TSI1293: Towels & Robes Indigo
+  • Sub-Category: Towels & Robes
+  • Price: ₹2,955
+  • Units Sold (30 days): 174
+  • Revenue (30 days): ₹514,211
+  • Rating: 4.25/5.0 (32 reviews)
+  • Stock: In Stock
+
+TSI1266: Towels & Robes Navy
+  • Sub-Category: Towels & Robes
+  • Price: ₹3,159
+  • Units Sold (30 days): 169
+  • Revenue (30 days): ₹533,852
+  • Rating: 4.43/5.0 (47 reviews)
+  • Stock: Out of Stock
+
+📈 ACCESSORIES - Top 3 Best Sellers:
+--------------------------------------------------------------------------------
+
+TSI1417: Hair Accessories Indigo
+  • Sub-Category: Hair Accessories
+  • Price: ₹3,483
+  • Units Sold (30 days): 198
+  • Revenue (30 days): ₹689,586
+  • Rating: 4.34/5.0 (53 reviews)
+  • Stock: In Stock
+
+TSI1460: Hair Accessories Indigo
+  • Sub-Category: Hair Accessories
+  • Price: ₹1,533
+  • Units Sold (30 days): 192
+  • Revenue (30 days): ₹294,243
+  • Rating: 4.91/5.0 (35 reviews)
+  • Stock: In Stock
+
+TSI1412: Bags Pink
+  • Sub-Category: Bags
+  • Price: ₹1,266
+  • Units Sold (30 days): 183
+  • Revenue (30 days): ₹231,726
+  • Rating: 4.41/5.0 (34 reviews)
+  • Stock: In Stock
+
+
+================================================================================
+SECTION 4: PRICE DISTRIBUTION ANALYSIS
+================================================================================
+
+/home/claude/the_shop_india_analysis/shop_india_analysis.py:250: FutureWarning: The default of observed=False is deprecated and will be changed to True in a future version of pandas. Pass observed=False to retain current behavior or observed=True to adopt the future default and silence this warning.
+  price_distribution = df.groupby('Price_Band').agg({
+Price Band Performance:
+                   Product_Count  Units_Sold      Revenue  Avg_Revenue_Per_Product
+Price_Band                                                                        
+Budget (<₹1K)                 85        4031   3226607.30                 37960.09
+Economy (₹1-2K)              405       15989  23997902.49                 59254.08
+Mid-Range (₹2-3K)            380       14353  35520655.91                 93475.41
+Premium (₹3-5K)              426       16575  62407189.41                146495.75
+Luxury (>₹5K)                224        9512  62408943.38                278611.35
+
+Key Insights:
+• Highest Volume: Premium (₹3-5K) (16575 units)
+• Highest Revenue: Luxury (>₹5K) (₹62,408,943)
+
+
+================================================================================
+SECTION 5: INVENTORY & STOCK ANALYSIS
+================================================================================
+
+Stock Status by Category:
+Stock_Status   In Stock  Low Stock  Out of Stock  Total  Out_of_Stock_%
+Main_Category                                                          
+Accessories          89         34            27    150           18.00
+Bedroom             140         50            30    220           13.64
+Dining              109         33            38    180           21.11
+Kids                111         40            29    180           16.11
+Living              164         43            43    250           17.20
+Men                  92         28            20    140           14.29
+Wellness             71         21            28    120           23.33
+Women               168         58            54    280           19.29
+
+
+⚠️  CRITICAL: 20 Best-Selling Products Out of Stock!
+These represent lost revenue opportunities:
+--------------------------------------------------------------------------------
+
+• TSI0220: Quilts & Duvet Covers Cream
+  Category: Bedroom > Quilts & Duvet Covers
+  Estimated Lost Revenue (if in stock): ₹582,855/month
+
+• TSI0272: Quilts & Duvet Covers Beige
+  Category: Bedroom > Quilts & Duvet Covers
+  Estimated Lost Revenue (if in stock): ₹287,334/month
+
+• TSI0284: Sheets & Bedcovers Cream
+  Category: Bedroom > Sheets & Bedcovers
+  Estimated Lost Revenue (if in stock): ₹818,873/month
+
+• TSI0385: Quilts & Duvet Covers Pink
+  Category: Bedroom > Quilts & Duvet Covers
+  Estimated Lost Revenue (if in stock): ₹1,083,551/month
+
+• TSI0390: Pillows Natural
+  Category: Bedroom > Pillows
+  Estimated Lost Revenue (if in stock): ₹506,805/month
+
+
+================================================================================
+SECTION 6: CUSTOMER SATISFACTION ANALYSIS
+================================================================================
+
+Customer Ratings by Category:
+               Avg_Rating  Min_Rating  Max_Rating  Total_Reviews
+Main_Category                                                   
+Men                  4.25        3.50        4.98           1164
+Kids                 4.24        3.50        4.97           1505
+Women                4.24        3.50        4.99           2157
+Bedroom              4.21        3.51        4.99           1636
+Dining               4.21        3.50        4.98           1430
+Living               4.19        3.50        5.00           1878
+Accessories          4.18        3.50        4.99            949
+Wellness             4.18        3.50        4.91            876
+
+
+Top 10 Highest Rated Products:
+--------------------------------------------------------------------------------
+• Lights & Shades Blue (Living)
+  Rating: 5.0/5.0 (19 reviews) | Price: ₹909
+• Quilts & Duvet Covers Natural (Bedroom)
+  Rating: 4.99/5.0 (54 reviews) | Price: ₹1,727
+• Jackets & Shrugs Yellow (Women)
+  Rating: 4.99/5.0 (24 reviews) | Price: ₹1,572
+• Scarves & Wraps Blue (Accessories)
+  Rating: 4.99/5.0 (23 reviews) | Price: ₹3,056
+• Table Runners Yellow (Dining)
+  Rating: 4.98/5.0 (23 reviews) | Price: ₹2,589
+• Table Runners Aqua (Dining)
+  Rating: 4.98/5.0 (14 reviews) | Price: ₹2,996
+• Sheets & Bedcovers Pink (Bedroom)
+  Rating: 4.98/5.0 (30 reviews) | Price: ₹3,043
+• Loungewear Yellow (Men)
+  Rating: 4.98/5.0 (44 reviews) | Price: ₹2,634
+• PJ Sets Pink (Kids)
+  Rating: 4.97/5.0 (16 reviews) | Price: ₹1,216
+• Quilts & Duvet Covers Navy (Bedroom)
+  Rating: 4.96/5.0 (17 reviews) | Price: ₹2,585
+
+
+================================================================================
+EXECUTIVE SUMMARY & RECOMMENDATIONS
+================================================================================
+
+📊 KEY METRICS:
+• Total Products Analyzed: 1520
+• Total Revenue (30 days): ₹187,561,298
+• Total Units Sold (30 days): 60,460
+• Average Order Value: ₹3,102
+• Overall Customer Rating: 4.21/5.0
+
+🏆 TOP PERFORMERS:
+• Best Revenue Category: Bedroom
+• Best Rated Category: Men
+• Most Reviewed Category: Women
+
+💡 STRATEGIC RECOMMENDATIONS:
+
+1. INVENTORY OPTIMIZATION:
+   • Restock 20 out-of-stock bestsellers immediately
+   • Focus on Bedroom category (highest revenue)
+
+2. PRICING STRATEGY:
+   • Luxury (>₹5K) generates highest revenue
+   • Consider expanding product range in this price segment
+
+3. CATEGORY EXPANSION:
+   • Wellness has growth potential (currently 120 products)
+   • Consider adding premium/bestselling items to underperforming categories
+
+4. CUSTOMER SATISFACTION:
+   • 77 highly-rated products have low sales
+   • Opportunity for better marketing/promotion
+
+5. QUICK WINS:
+   • Promote bestsellers in Bedroom category
+   • Bundle high-rated slow-movers with bestsellers
+   • Run targeted campaigns for price-sensitive customer segment
+
+================================================================================
+Analysis Complete!
+================================================================================
+
+✓ Data saved to: product_analysis_data.csv
